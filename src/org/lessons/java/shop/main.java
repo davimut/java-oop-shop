@@ -1,5 +1,7 @@
 package org.lessons.java.shop;
 
+import java.lang.reflect.Constructor;
+import java.util.Scanner;
 
 //Nel progetto java-oop-shop, package org.lessons.java.shop, creare la classe Prodotto che gestisce i prodotti dello shop.
 //Un prodotto è caratterizzato da: - codice (numero intero) - nome - descrizione - prezzo - iva
@@ -16,8 +18,6 @@ package org.lessons.java.shop;
 
 public class main {
 
-
-	
 	    public static void main(String[] args) {
 	        Prodotto prodotto1 = new Prodotto("Iphone 15", "Nuovo modello di smartphone apple", 950.00, 22.00);
 
