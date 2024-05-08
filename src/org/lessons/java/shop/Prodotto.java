@@ -16,7 +16,7 @@ import java.util.Random;
 //(ad esempio codice 91 diventa 00000091, mentre codice 123445567 resta come è)
 
 public class Prodotto {
-
+  
 	private int codice;
 	// ( creare metodo per generare codice random vedere internet!)
 	private String nome;
@@ -32,6 +32,11 @@ public class Prodotto {
 		this.descrizione = descrizione;
 		this.prezzo = prezzo;
 		this.iva = iva;
+	}
+     
+
+
+	public Prodotto(int codice2, String nome2, String descrizione2, double prezzo2, double iva2) {
 	}
 
 	// metodo per generare numero random con padding numero di 8 cifre (BONUS)!!

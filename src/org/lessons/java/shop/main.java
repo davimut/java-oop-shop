@@ -32,8 +32,7 @@ public class main {
 	        //metodo per calcolare l iva richiamato e stampato
 	        System.out.println("Prezzo comprensivo di IVA: " + prodotto1.getPrezzoIVA());
 	        
-	        
-	        
+	       
 	        System.out.println(" "); // spazio tra i 2 prodotti
 	        
 	        
@@ -62,6 +61,11 @@ public class main {
 
 	        // Test del metodo getNomeEsteso
 	        System.out.println("Nome esteso: " + prodotto2.getNomeEsteso());
+	        
+	        Scanner scanner = new Scanner(System.in);
+	        
+	        
+	        
 	    }
 	}
 
