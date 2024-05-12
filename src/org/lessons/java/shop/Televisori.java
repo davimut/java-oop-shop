@@ -25,4 +25,5 @@ public class Televisori extends Prodotto {
     public void setSmart(boolean smart) {
         this.smart = smart;
     }
+    
 }

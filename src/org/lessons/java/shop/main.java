@@ -1,6 +1,5 @@
 package org.lessons.java.shop;
 
-import java.lang.reflect.Constructor;
 import java.util.Scanner;
 
 //Nel progetto java-oop-shop, package org.lessons.java.shop, creare la classe Prodotto che gestisce i prodotti dello shop.
@@ -66,7 +65,7 @@ public class main {
 	        
 	        System.out.println();
 	        
-	       //>>>>>>>>>>>>>>>>>>  ESERCIZIO 3   EREDITARIETA' <<<<<<<<<<<<<<<<<<<<<<<<<<<
+	       //>>>>>>>>>>>>>>>>>>  ESERCIZIO 3   SUPERCLASSE E SOTTOCLASSI' <<<<<<<<<<<<<<<<<<<<<<<<<<<
 	       // Lo shop gestisce diversi tipi di prodotto:
 	       //- Smarphone, caratterizzati anche dal codice IMEI e dalla quantità di memoria
 	       //- Televisori, caratterizzati dalle dimensioni e dalla proprietà di essere smart oppure no
@@ -113,6 +112,7 @@ public class main {
 	        } else {
 	            System.out.println("Wireless: No");
 	        };
+	 
 	    }
 	}
 
