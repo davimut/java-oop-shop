@@ -65,53 +65,7 @@ public class main {
 	        
 	        System.out.println();
 	        
-	       //>>>>>>>>>>>>>>>>>>  ESERCIZIO 3   SUPERCLASSE E SOTTOCLASSI' <<<<<<<<<<<<<<<<<<<<<<<<<<<
-	       // Lo shop gestisce diversi tipi di prodotto:
-	       //- Smarphone, caratterizzati anche dal codice IMEI e dalla quantità di memoria
-	       //- Televisori, caratterizzati dalle dimensioni e dalla proprietà di essere smart oppure no
-	       //- Cuffie, caratterizzate dal colore e se sono wireless o cablate
-	       //Utilizzate l’ereditarietà per riutilizzare il codice di Prodotto nella stesura delle classi che gestiscono i vari sotto tipi di prodotto.
-	        
-	        Smartphone smartphone = new Smartphone("iPhone 13", "Alte prestazioni ", 890.99, 22.00, "123456789", 128);
-	        Televisori televisore = new Televisori("Samsung OLED TV", "Televisore OLED", 700.99, 22.00, 55.0, true);
-	        Cuffie cuffie = new Cuffie("Sony headphones", "Cuffie in-ear wireless", 159.99, 22.00, "Nero", true);
 
-	        
-	        System.out.println("Smartphone:");
-	        
-	        System.out.println("Nome: " + smartphone.getNome());
-	        System.out.println("Descrizione: " + smartphone.getDescrizione());
-	        System.out.println("Prezzo: " + smartphone.getPrezzo());
-	        System.out.println("IVA: " + smartphone.getIva());
-	        System.out.println("IMEI: " + "IMEI"+ smartphone.getImei());
-	        System.out.println("Memoria: " + smartphone.getMemoria());
-	        System.out.println();
-	        
-	        
-	        System.out.println("Televisore:");
-	        System.out.println("Nome: " + televisore.getNome());
-	        System.out.println("Descrizione: " + televisore.getDescrizione());
-	        System.out.println("Prezzo: " + televisore.getPrezzo());
-	        System.out.println("IVA: " + televisore.getIva());
-	        System.out.println("Dimensioni: " + televisore.getDimensioni() + " pollici");
-	        if (televisore.isSmart()) {
-	            System.out.println("Smart: Sì");
-	        } else {
-	            System.out.println("Smart: No");
-	        };
-	        System.out.println();
-	        
-	        System.out.println("Cuffie:");
-	        System.out.println("Nome: " + cuffie.getNome());
-	        System.out.println("Descrizione: " + cuffie.getDescrizione());
-	        System.out.println("Prezzo: " + cuffie.getPrezzo());
-	        System.out.println("IVA: " + cuffie.getIva());
-	        System.out.println("Colore: " + cuffie.getColore());
-	        if (cuffie.isWireless()) {
-	            System.out.println("Wireless: Sì");
-	        } else {
-	            System.out.println("Wireless: No");
-	        };
 	 
 	    }
 	}
